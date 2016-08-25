@@ -13,7 +13,7 @@ public class FactCalc
         tbf = a;
         thenum = 1;
     }
-    public int factor(){
+    public int result(){
         while(tbf>0){
             thenum = tbf * thenum;
             tbf = tbf - 1;

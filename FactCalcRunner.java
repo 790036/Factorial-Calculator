@@ -9,6 +9,6 @@ public class FactCalcRunner
 {
     public static void main(String[] args){
        FactCalc fc = new FactCalc(12);
-       System.out.print("The factorial is "+ fc.factor());
+       System.out.print("The factorial is "+ fc.result());
     }
 }
