@@ -2,13 +2,13 @@
 /**
  * Write a description of class FactCalcRunner here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @Levi Rutherford
+ * @FirstClass
  */
 public class FactCalcRunner
 {
     public static void main(String[] args){
        FactCalc fc = new FactCalc(12);
-       System.out.print("The factorial is "+ fc.result());
+       System.out.println("The factorial is "+ fc.result());
     }
 }
